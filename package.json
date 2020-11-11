@@ -1,0 +1,21 @@
+{
+  "name": "loadtest",
+  "version": "1.0.0",
+  "description": "load test for complex & fragile application, using function pipeline",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@deersheep330/function-pipeline": "^1.0.5",
+    "axios": "^0.21.0",
+    "circular-json": "^0.5.9",
+    "form-data": "^3.0.0",
+    "fs": "0.0.1-security",
+    "moment": "^2.29.1",
+    "querystring": "^0.2.0"
+  }
+}

@@ -1,0 +1,12 @@
+# editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.icloud
+*.iml
+
+# npm
+node_modules

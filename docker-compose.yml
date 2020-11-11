@@ -1,0 +1,10 @@
+version: '2'
+services:
+  loadtest:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: load-test
+    volumes:
+      - ./archive:/home/node/app/archive
+      - ./output:/home/node/app/output
